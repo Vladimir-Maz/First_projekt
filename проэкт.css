@@ -1,0 +1,351 @@
+header{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(20, 51, 51);
+}
+
+nav{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: grey;
+}
+
+.artefakt_img{
+    margin-left: 200px;
+    height: 170px;
+    padding: 20px;
+    max-width: 500px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.artefakt_h1{
+    color: white;
+    font-size:45px ;
+    padding-bottom: 10px;
+}
+
+.artefakt_p{
+    color: white;
+    scale: 30px;
+}
+
+.kart{
+    border-color: rgb(3, 31, 27);
+    height: 340px;
+    justify-content: flex-start;
+    margin: 15px;
+    border: 1px solid;
+    width:270px;
+    display:flex ;
+    background-color: rgb(22, 49, 47);
+    flex-direction: column;
+}
+
+.kart_img{
+    padding: 10px;
+    background-color: rgb(3, 24, 21);
+    width: 270;
+    height: 90px;
+}
+
+.kart_mnogo{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.new_artefakt{
+    display: flex;
+}
+
+.left_panel{
+    width: 800px;
+}
+
+main{
+    padding-bottom: 20px;
+    background-color: rgb(22, 49, 47);
+}
+
+.artefakt{
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(1_1\ \(1\).png);
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.issledovat{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(142, 209, 41);
+    border: medium none;
+	background-color: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.issledovat:hover{
+    color: rgb(60, 163, 60);
+}
+
+.name{
+    cursor: pointer;
+    color: white;
+}
+
+.dla_kart{
+    display: flex;
+    align-items: center;
+    background-color: rgb(22, 49, 47);
+}
+
+.kart_mnogo{
+    margin-left: 483px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    width:900px ;
+    height: 380px;
+    padding: 20px;
+}
+
+.kart_h2{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.kart_p{
+    color: rgb(185, 194, 202);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.more_info_plant{
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(142, 209, 41);
+    color:  rgb(142, 209, 41);
+    background-color: transparent;
+    background-image: none;
+    height:40px;
+    width: 126px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.more_info_plant:hover{
+    background-color: rgb(48, 79, 97);
+}
+
+.more_info_flower{
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(142, 209, 41);
+    color:  rgb(142, 209, 41);
+    background-color: transparent;
+    background-image: none;
+    height:40px;
+    width: 126px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.more_info_flower:hover{
+    background-color: rgb(48, 79, 97);
+}
+
+.more_info_leaf{
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(142, 209, 41);
+    color:  rgb(142, 209, 41);
+    background-color: transparent;
+    background-image: none;
+    height:40px;
+    width: 126px;
+    margin-left: 10px;
+    margin-top: 27px;
+    margin-bottom: 4px;
+}
+
+.more_info_leaf:hover{
+    background-color: rgb(48, 79, 97);
+}
+
+.more_info_wood{
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(142, 209, 41);
+    color:  rgb(142, 209, 41);
+    background-color: transparent;
+    background-image: none;
+    height:40px;
+    width: 126px;
+    margin-left: 10px;
+    margin-top: 44px;
+    margin-bottom: 4px;
+}
+
+.more_info_wood:hover{
+    background-color: rgb(48, 79, 97);
+}
+
+.dla_div_new_artefakt{
+    padding-left: 450px;
+    padding-top: 10px;
+    background-color: rgb(22, 49, 47); 
+}
+
+.div_new_artefakt{
+    padding-bottom: 25px;
+    background-color: rgb(22, 49, 47); 
+    max-width: 1050px;
+}
+
+.right_panel{
+    border-radius: 3px;
+    padding: 15px;
+    margin-left: 40px;
+    background-color: rgba(164, 214, 27, 0.89);
+}
+
+.new_artefakt_h1{
+    color: white;
+    font-style: italic;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    padding-top: none;
+    padding-bottom: 6px;
+}
+
+.Kurische_Nehrung_24_h2{
+    color: rgb(34, 43, 61);
+    font-size: 20px;
+}
+
+.Kurische_Nehrung_24_p{
+    color:rgb(97, 83, 83) ;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.Kurische_Nehrung_24_p2{
+    color:rgb(97, 83, 83) ;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.read_next{
+    transition: 0.3s;
+    margin-top: 140px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    border: medium none;
+	background-color: transparent;
+    border-radius: 5px;
+}
+
+.read_next:hover{
+    color: rgb(55, 59, 55);
+}
+
+.help{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left:  150px;
+    padding-top: 55px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1_1\ \(2\).png);
+    padding-bottom: 55px;
+}
+
+.div_main_niz_p{
+    max-width: 700px;
+    padding-bottom: 15px;
+}
+
+.help_project_name{
+    padding-bottom: 23px;
+    color: white;
+    font-style: italic;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+.niz_main_p{
+    color:  white;
+}
+
+.stroka_help1{
+    padding-left: 10px;
+    margin-bottom: 25px;
+    width: 350px;
+    height: 40px;
+}
+
+.stroka_help2{
+    padding-left: 10px;
+    margin-bottom: 25px;
+    width: 350px;
+    height: 40px;
+}
+
+.send{
+    border-radius: 2px;
+    height:40px;
+    width: 126px;
+    background-color: rgba(185, 241, 30, 0.89);
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: rgb(136, 207, 95);
+}
+
+footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(12, 31, 31);
+}
+
+.footer_imgs{
+    padding-left: 870px;
+}
+
+.footer_img{
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.other_nav{
+    padding-left: 30px;
+    cursor: pointer;
+}
